@@ -19,4 +19,4 @@ RUN apk add bash
 COPY setup.cfg /setup.cfg
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
-CMD ["--help"]
+CMD ["--help"]hhh
